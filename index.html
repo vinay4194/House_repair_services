@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home Repair Services</title>
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+   <nav id="side-nav">
+      <ul>
+         <li><a href="#">Home </a></li>
+         <li><a href="#help">About Us </a></li>
+         <li><a href="#services">Services </a></li>
+         <li><a href="#contact">Contact </a></li>
+      </ul>
+   </nav>
+   <img id="nav-btn" src="images/nav.png">
+
+   <section class="main-page">
+      <div class="main-text">
+         <h1>HOUSE REPAIR <br><span>SERVICES</span></h1>
+      </div>
+      
+      <div class="small-images">
+         <div class="small-images-items">
+            <img src="images/one.png" alt="">
+            <h2>PAINTING</h2>
+         </div>
+         <div class="small-images-items">
+            <img src="images/two.png" alt="">
+            <h2>CLEANING</h2>
+         </div>
+         <div class="small-images-items">
+            <img src="images/three.png" alt="">
+            <h2>PLUMBING</h2>
+         </div>
+      </div>
+   </section>
+
+   <section class="help" id="help">
+      <div class="help-upper">
+         <h1>How Can We Help You?</h1>
+         <p>We specialize in making routine maintenance and emergency repair experiences worry free. Give us a call today to learn how simple our process truly is!</p>
+         <button class="btn">Book Now</button>
+      </div>
+      <div class="help-lower">
+         <div class="help-lower-contents">
+            <div class="help-lower-content-images">
+               <img src="images/billionphotos1883011.jpg" alt="">
+            </div>
+            <p>By planning ahead you can save yourself from feeling stressed and overwhelmed. Our Repair Services is the handyman service provider trusted throughout the Country.</p>
+         </div>
+         <div class="help-lower-contents">
+            <h1>Need Help Right Away? <br><span>Call us now: 723-123-345 </span></h1>
+            <div class="help-lower-content-images">
+               <img src="images/billionphotos1882993.jpg" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="quality">
+      <div class="quality-contents">
+         <img src="images/standing_guy.png" alt="">
+      </div>
+      <div class="quality-contents">
+         <h1>BEST QUALITY</h1>
+         <p>Company works with homeowners, contractors, realtors, and residential building managers to help maintain, upgrade, and repair properties</p>
+         <button class="btn">Book Now</button>
+      </div>
+   </section>
+
+   <section class="services" id="services">
+      <div class="services-title"><h1>OUR SERVICES</h1></div>
+      <div class="services-desc">
+         <div class="services-desc-items">
+            <img src="images/painting.PNG" alt="">
+            <h2>Painting</h2>
+            <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time.</p>
+         </div>
+         <div class="services-desc-items">
+            <img src="images/electrical.PNG" alt="">
+            <h2>Electrical</h2>
+            <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time.</p>
+         </div>
+         <div class="services-desc-items">
+            <img src="images/repair.PNG" alt="">
+            <h2>Repair</h2>
+            <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time.</p>
+         </div>
+      </div>
+   </section>
+   <section class="call-us"id="contact">
+      <h1>Get your 'TO DO' list completed by a real professional!</h1>
+      <p>We’re on a mission to help build long-lasting brands that shape and define an entire industry through thoughtful design.</p>
+      <div class="buttons">
+         <button class="btn">Book Now</button>
+         <button class="btn">Call Us</button>
+      </div>
+   </section>
+   <section class="footer">
+      <div class="footer-items">
+         <h3>Headline</h3>
+         <p>Sample Footer Text</p>
+      </div>
+      
+   </section>
+
+   <script>
+      var menubtn=document.getElementById("nav-btn");
+      var sidenav=document.getElementById("side-nav");
+      sidenav.style.right="-250px";
+      menubtn.onclick=function(){
+         if(sidenav.style.right=="-250px"){
+            sidenav.style.right="0";
+         }
+         else{
+            sidenav.style.right="-250px";
+         }
+      }
+      var scroll = new SmoothScroll('a[href*="#"]');
+	
+   
+
+   </script>
+</body>
+</html>
